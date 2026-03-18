@@ -1,9 +1,9 @@
 /* ============================================================
-   themes/rose-pine-dark.css — Rosé Pine Dark theme
+   themes/rose-pine-moon.css — Rosé Pine Moon theme
    ============================================================ */
 
 body {
-  background-color: #191724; /* base */
+  background-color: #232136; /* base */
   color: #e0def4;            /* text */
 }
 
@@ -13,8 +13,8 @@ a {
 
 /* Header */
 .site-header {
-  background-color: #1f1d2e; /* surface */
-  border-bottom: 1px solid #26233a; /* overlay */
+  background-color: #2a273f; /* surface */
+  border-bottom: 1px solid #393552; /* overlay */
 }
 
 .header-name {
@@ -36,13 +36,13 @@ a {
 /* Section headings */
 .section h2 {
   color: #e0def4;
-  border-color: #eb6f92; /* rose accent */
+  border-color: #eb6f92;
 }
 
 /* Project card */
 .project-card {
-  background-color: #1f1d2e; /* surface */
-  border: 1px solid #26233a; /* overlay */
+  background-color: #2a273f;
+  border: 1px solid #393552;
 }
 
 .project-title {
@@ -50,12 +50,12 @@ a {
 }
 
 .project-summary {
-  color: #c4c0e0; /* softened text */
+  color: #c4c0e0;
 }
 
 /* Tech badges */
 .tech-badge {
-  background-color: #26233a; /* overlay */
+  background-color: #393552; /* overlay */
   color: #9ccfd8;            /* foam */
 }
 
@@ -70,14 +70,22 @@ a {
 
 /* Buttons */
 .btn-repo {
-  background-color: #31748f; /* pine */
+  background-color: #3e8fb0; /* pine */
   color: #e0def4;
 }
 
+.btn-repo:hover {
+  background-color: #5fb3c8;
+}
+
 .btn-notebook {
-  background-color: #26233a;
+  background-color: #393552;
   color: #e0def4;
   border: 1px solid #6e6a86;
+}
+
+.btn-notebook:hover {
+  border-color: #9ccfd8;
 }
 
 /* Contact */
@@ -87,7 +95,7 @@ a {
 
 /* Footer */
 .site-footer {
-  background-color: #1f1d2e;
-  border-top: 1px solid #26233a;
+  background-color: #2a273f;
+  border-top: 1px solid #393552;
   color: #6e6a86;
 }
