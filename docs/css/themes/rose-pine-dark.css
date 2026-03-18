@@ -42,7 +42,7 @@ a {
 /* Project card */
 .project-card {
   background-color: #1f1d2e; /* surface */
-  border: 1px solid #26233a; /* overlay */
+  border: 1px solid #e0def4; /* overlay */
 }
 
 .project-title {
