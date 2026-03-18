@@ -1,5 +1,5 @@
 /* ============================================================
-   themes/rose-pine-moon-purple.css — Rosé Pine Moon (Purple)
+   themes/rose-pine-moon.css — Rosé Pine Moon theme
    ============================================================ */
 
 body {
@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #b9a3d6;            /* lavender */
+  color: #c4a7e7;            /* foam */
 }
 
 /* Header */
@@ -36,7 +36,7 @@ a {
 /* Section headings */
 .section h2 {
   color: #e0def4;
-  border-color: #c4a7e7; /* purple */
+  border-color: #eb6f92;
 }
 
 /* Project card */
@@ -55,8 +55,8 @@ a {
 
 /* Tech badges */
 .tech-badge {
-  background-color: #393552;
-  color: #c4a7e7; /* purple */
+  background-color: #393552; /* overlay */
+  color: #c4a7e7;            /* foam */
 }
 
 /* Details */
@@ -65,17 +65,17 @@ a {
 }
 
 .detail-block h4 {
-  color: #6e6a86;
+  color: #6e6a86; /* muted */
 }
 
 /* Buttons */
 .btn-repo {
-  background-color: #907aa9; /* deep purple */
+  background-color: #3e8fb0; /* pine */
   color: #e0def4;
 }
 
 .btn-repo:hover {
-  background-color: #c4a7e7;
+  background-color: #5fb3c8;
 }
 
 .btn-notebook {
@@ -85,12 +85,12 @@ a {
 }
 
 .btn-notebook:hover {
-  border-color: #b9a3d6;
+  border-color: #c4a7e7;
 }
 
 /* Contact */
 .contact-list a {
-  color: #b9a3d6;
+  color: #c4a7e7;
 }
 
 /* Footer */
