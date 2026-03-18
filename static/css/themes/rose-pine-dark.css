@@ -14,7 +14,7 @@ a {
 /* Header */
 .site-header {
   background-color: #1f1d2e; /* surface */
-  border-bottom: 1px solid #eb6f92; /* overlay */
+  border-bottom: 3px solid #eb6f92; /* overlay */
 }
 
 .header-name {
