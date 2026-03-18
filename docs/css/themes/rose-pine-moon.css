@@ -1,0 +1,101 @@
+/* ============================================================
+   themes/rose-pine-moon.css — Rosé Pine Moon theme
+   ============================================================ */
+
+body {
+  background-color: #232136; /* base */
+  color: #e0def4;            /* text */
+}
+
+a {
+  color: #9ccfd8;            /* foam */
+}
+
+/* Header */
+.site-header {
+  background-color: #2a273f; /* surface */
+  border-bottom: 4px solid #eb6f92; /* overlay */
+}
+
+.header-name {
+  color: #e0def4;
+}
+
+.header-tagline {
+  color: #908caa; /* subtle */
+}
+
+.site-nav a {
+  color: #908caa;
+}
+
+.site-nav a:hover {
+  color: #eb6f92; /* rose */
+}
+
+/* Section headings */
+.section h2 {
+  color: #e0def4;
+  border-color: #eb6f92;
+}
+
+/* Project card */
+.project-card {
+  background-color: #2a273f;
+  border: 1px solid #393552;
+}
+
+.project-title {
+  color: #e0def4;
+}
+
+.project-summary {
+  color: #c4c0e0;
+}
+
+/* Tech badges */
+.tech-badge {
+  background-color: #393552; /* overlay */
+  color: #9ccfd8;            /* foam */
+}
+
+/* Details */
+.project-details {
+  color: #c4c0e0;
+}
+
+.detail-block h4 {
+  color: #6e6a86; /* muted */
+}
+
+/* Buttons */
+.btn-repo {
+  background-color: #3e8fb0; /* pine */
+  color: #e0def4;
+}
+
+.btn-repo:hover {
+  background-color: #5fb3c8;
+}
+
+.btn-notebook {
+  background-color: #393552;
+  color: #e0def4;
+  border: 1px solid #6e6a86;
+}
+
+.btn-notebook:hover {
+  border-color: #9ccfd8;
+}
+
+/* Contact */
+.contact-list a {
+  color: #9ccfd8;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #2a273f;
+  border-top: 1px solid #393552;
+  color: #6e6a86;
+}
