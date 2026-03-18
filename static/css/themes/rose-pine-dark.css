@@ -1,20 +1,20 @@
 /* ============================================================
-   themes/rose-pine-moon.css — Rosé Pine Moon theme
+   themes/rose-pine-dark.css — Rosé Pine Dark theme
    ============================================================ */
 
 body {
-  background-color: #232136; /* base */
+  background-color: #191724; /* base */
   color: #e0def4;            /* text */
 }
 
 a {
-  color: #c4a7e7;            /* foam */
+  color: #9ccfd8;            /* foam */
 }
 
 /* Header */
 .site-header {
-  background-color: #2a273f; /* surface */
-  border-bottom: 1px solid #393552; /* overlay */
+  background-color: #1f1d2e; /* surface */
+  border-bottom: 1px solid #26233a; /* overlay */
 }
 
 .header-name {
@@ -36,13 +36,13 @@ a {
 /* Section headings */
 .section h2 {
   color: #e0def4;
-  border-color: #eb6f92;
+  border-color: #eb6f92; /* rose accent */
 }
 
 /* Project card */
 .project-card {
-  background-color: #2a273f;
-  border: 1px solid #393552;
+  background-color: #1f1d2e; /* surface */
+  border: 1px solid #26233a; /* overlay */
 }
 
 .project-title {
@@ -50,13 +50,13 @@ a {
 }
 
 .project-summary {
-  color: #c4c0e0;
+  color: #c4c0e0; /* softened text */
 }
 
 /* Tech badges */
 .tech-badge {
-  background-color: #393552; /* overlay */
-  color: #c4a7e7;            /* foam */
+  background-color: #26233a; /* overlay */
+  color: #9ccfd8;            /* foam */
 }
 
 /* Details */
@@ -70,32 +70,24 @@ a {
 
 /* Buttons */
 .btn-repo {
-  background-color: #eb6f92; /* pine */
+  background-color: #31748f; /* pine */
   color: #e0def4;
 }
 
-.btn-repo:hover {
-  background-color: #5fb3c8;
-}
-
 .btn-notebook {
-  background-color: #393552;
+  background-color: #26233a;
   color: #e0def4;
   border: 1px solid #6e6a86;
 }
 
-.btn-notebook:hover {
-  border-color: #c4a7e7;
-}
-
 /* Contact */
 .contact-list a {
-  color: #c4a7e7;
+  color: #9ccfd8;
 }
 
 /* Footer */
 .site-footer {
-  background-color: #2a273f;
-  border-top: 1px solid #393552;
+  background-color: #1f1d2e;
+  border-top: 1px solid #26233a;
   color: #6e6a86;
 }
