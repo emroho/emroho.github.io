@@ -5,13 +5,10 @@
 # Copy this file to create your own project entries.
 # ============================================================
 
-title: "Optimal Nap Spot Prediction Across Campus"
+title: "Chronic Kidney Disease"
 
 short_summary: >
-  Built a model to identify the best nap locations on MSU's campus based
-  on sunlight exposure, foot traffic, grass quality, and proximity to
-  food smells. Findings have been peer-reviewed by three other dogs and
-  were described as "life-changing" and "very good."
+  Identified the leading contributing factors of chronic kidney disease using machine learning models.
 
 tech_stack:
   - Python
