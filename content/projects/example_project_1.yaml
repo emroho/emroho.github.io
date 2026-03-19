@@ -5,7 +5,7 @@
 # Copy this file to create your own project entries.
 # ============================================================
 
-title: "Chronic Kidney Disease !!!"
+title: "Chronic Kidney Disease Prediction"
 
 short_summary: >
   Identified the leading contributing factors of chronic kidney disease using machine learning models.
@@ -22,8 +22,6 @@ problem_statement: >
   That makes up 35.5 million people. Despite the high number, approximately 90% of the people with CKD are not aware they have it. 
   We aim to find which measurable health variables are linked closest to the disease in order to increase early detection and prevention.
 
-    - Can we accurately predict whether a patient has CKD based on their medical measurements?
-    - Which are the best predictors?
 
 approach: >
   Collected location data across 47 candidate nap sites over a full

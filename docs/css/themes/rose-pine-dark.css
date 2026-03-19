@@ -3,7 +3,7 @@
    ============================================================ */
 
 body {
-  background-color: #191724; /* base */
+  background-color: #191724; /* base */ 
   color: #e0def4;            /* text */
 }
 
@@ -42,7 +42,7 @@ a {
 /* Project card */
 .project-card {
   background-color: #1f1d2e; /* surface */
-  border: 1px solid #e0def4; /* overlay */
+  border: 1px #908caa; /* overlay */
 }
 
 .project-title {

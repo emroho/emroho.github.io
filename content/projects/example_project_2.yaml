@@ -5,29 +5,28 @@
 # Copy this file to create your own project entries.
 # ============================================================
 
-title: "Spartan Football Crowd Cheer Analysis"
+title: "Plant Growth Analysis"
 
 short_summary: >
-  Analyzed audio and attendance data from Spartan Stadium to understand
-  what game events drive the loudest crowd reactions. Results were used
-  to help the athletics department optimize in-game entertainment and
-  — personally — to determine the exact moments when I should run onto
-  the field for maximum dramatic effect.
+  Used predictive modeling to identify which environmental stressors 
+  have the greatest impact on tropical plant growth.
 
 tech_stack:
   - Python
   - pandas
   - seaborn
-  - Plotly
+  - sklearn
+  - statsmodels
   - Jupyter Notebooks
 
 problem_statement: >
-  Fan energy is contagious, but it is also unpredictable. The athletics
-  department wanted to know which in-game events (touchdowns, turnovers,
-  big defensive stops, walk-up music choices) produced the biggest crowd
-  reactions — and whether the pattern differed by opponent, weather, or
-  game time. As the mascot, I had strong professional interest in this
-  question.
+  Tropical ecosystems play an extremely important role as a biodiversity hub, 
+  a carbon sink for 25% of the world's carbon, and a source of rain for areas around 
+  the globe. However, increased global temperatures and pollution from the 
+  climate crisis have increased the multitude of stressors on plants, especially 
+  in lower latitudes. Tropical plants in these biomes therefore are more at risk, 
+  and our project attempts to answer the question: "Can we predict the effect of 
+  stressors on plant growth?"
 
 approach: >
   Combined play-by-play game data with decibel readings from stadium
