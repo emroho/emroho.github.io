@@ -18,11 +18,12 @@ tech_stack:
   - Jupyter Notebooks
 
 problem_statement: >
-  Finding a good nap spot is harder than it looks. Campus is large,
-  conditions change throughout the day, and the best patches of sun
-  move. A mascot operating on intuition alone wastes valuable resting
-  time — a problem that affects productivity, morale, and tail-wagging
-  rates across the entire campus community.
+  About 14% of U.S. adults are affected by Chronic Kidney Disease (CKD). 
+  That makes up 35.5 million people. Despite the high number, approximately 90% of the people with CKD are not aware they have it. 
+  We aim to find which measurable health variables are linked closest to the disease in order to increase early detection and prevention.
+
+-   Can we accurately predict whether a patient has CKD based on their medical measurements?
+-   Which are the best predictors?
 
 approach: >
   Collected location data across 47 candidate nap sites over a full
