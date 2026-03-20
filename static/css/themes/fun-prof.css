@@ -1,0 +1,93 @@
+/* ============================================================
+   themes/upbeat-dark.css  —  Upbeat professional dark theme.
+   ============================================================ */
+
+body {
+  background-color: #1f1f2e;   /* Deep but warm dark blue */
+  color: #f5f5f5;              /* Bright off-white for readability */
+}
+
+a {
+  color: #ffb86c;              /* Energetic, slightly orange link color */
+}
+
+/* Header */
+.site-header {
+  background-color: #2a2a3e;   /* Slightly lighter dark blue */
+  border-bottom: 1px solid #444466;
+}
+
+.header-name {
+  color: #ffffff;              /* Bright white for name */
+}
+
+.header-tagline {
+  color: #d0d0d0;              /* Light gray for tagline */
+}
+
+.site-nav a {
+  color: #c0c0c0;              /* Slight gray for nav links */
+}
+
+.site-nav a:hover {
+  color: #ff79c6;              /* Fun, pink accent on hover */
+}
+
+/* Section headings */
+.section h2 {
+  color: #ffffff;
+  border-color: #50fa7b;       /* Fresh green accent */
+}
+
+/* Project card */
+.project-card {
+  background-color: #2a2a3e;
+  border: 1px solid #444466;
+}
+
+.project-title {
+  color: #ffffff;
+}
+
+.project-summary {
+  color: #dcdcdc;
+}
+
+/* Tech badges */
+.tech-badge {
+  background-color: #444466;
+  color: #50fa7b;
+}
+
+/* Details */
+.project-details {
+  color: #dcdcdc;
+}
+
+.detail-block h4 {
+  color: #aaaaaa;
+}
+
+/* Buttons */
+.btn-repo {
+  background-color: #ffb86c;   /* Matches link accent */
+  color: #1f1f2e;
+}
+
+.btn-notebook {
+  background-color: #3a3a5a;   /* Slightly lighter than card */
+  color: #f5f5f5;
+  border: 1px solid #555577;
+}
+
+/* Contact */
+.contact-list a {
+  color: #ff79c6;              /* Matches nav hover accent */
+}
+
+/* Footer */
+.site-footer {
+  background-color: #2a2a3e;
+  border-top: 1px solid #444466;
+  color: #bbbbbb;
+}
