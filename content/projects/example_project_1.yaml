@@ -12,9 +12,10 @@ short_summary: >
 
 tech_stack:
   - Python
-  - scikit-learn
   - pandas
+  - seaborn
   - matplotlib
+  - sklearn
   - Jupyter Notebooks
 
 problem_statement: >
