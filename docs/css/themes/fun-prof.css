@@ -1,93 +1,93 @@
 /* ============================================================
-   themes/upbeat-dark.css  —  Upbeat professional dark theme.
+   themes/sunset-mermaid.css  —  Sunset on valley & beach theme
    ============================================================ */
 
 body {
-  background-color: #1f1f2e;   /* Deep but warm dark blue */
-  color: #f5f5f5;              /* Bright off-white for readability */
+  background-color: #1b1c2d;   /* Deep twilight blue */
+  color: #ffeedd;              /* Soft warm off-white for text */
 }
 
 a {
-  color: #ffb86c;              /* Energetic, slightly orange link color */
+  color: #ff6f61;              /* Coral-pink links */
 }
 
 /* Header */
 .site-header {
-  background-color: #2a2a3e;   /* Slightly lighter dark blue */
-  border-bottom: 1px solid #444466;
+  background-color: #2f243c;   /* Dark purple mountains */
+  border-bottom: 1px solid #5a3f72;
 }
 
 .header-name {
-  color: #ffffff;              /* Bright white for name */
+  color: #ffd1a9;              /* Golden-orange, sunset glow */
 }
 
 .header-tagline {
-  color: #d0d0d0;              /* Light gray for tagline */
+  color: #d8c0ff;              /* Light lavender, dreamy accent */
 }
 
 .site-nav a {
-  color: #c0c0c0;              /* Slight gray for nav links */
+  color: #c8b0e6;              /* Muted purple nav links */
 }
 
 .site-nav a:hover {
-  color: #ff79c6;              /* Fun, pink accent on hover */
+  color: #ff9e6d;              /* Sunset orange hover */
 }
 
 /* Section headings */
 .section h2 {
-  color: #ffffff;
-  border-color: #50fa7b;       /* Fresh green accent */
+  color: #ffd1a9;              /* Golden-orange headings */
+  border-color: #ff6f61;       /* Coral border */
 }
 
 /* Project card */
 .project-card {
-  background-color: #2a2a3e;
-  border: 1px solid #444466;
+  background-color: #2f243c;   /* Dark mountain-purple card */
+  border: 1px solid #5a3f72;
 }
 
 .project-title {
-  color: #ffffff;
+  color: #ffeedd;              /* Soft text */
 }
 
 .project-summary {
-  color: #dcdcdc;
+  color: #e0d4ff;              /* Light lavender summary */
 }
 
 /* Tech badges */
 .tech-badge {
-  background-color: #444466;
-  color: #50fa7b;
+  background-color: #5a3f72;   /* Muted purple badge bg */
+  color: #ffd1a9;              /* Sunset glow text */
 }
 
 /* Details */
 .project-details {
-  color: #dcdcdc;
+  color: #e0d4ff;              /* Light lavender */
 }
 
 .detail-block h4 {
-  color: #aaaaaa;
+  color: #c8b0e6;              /* Slightly darker lavender */
 }
 
 /* Buttons */
 .btn-repo {
-  background-color: #ffb86c;   /* Matches link accent */
-  color: #1f1f2e;
+  background-color: #ff6f61;   /* Coral button */
+  color: #1b1c2d;              /* Dark text */
 }
 
 .btn-notebook {
-  background-color: #3a3a5a;   /* Slightly lighter than card */
-  color: #f5f5f5;
-  border: 1px solid #555577;
+  background-color: #3c2f50;   /* Deep purple button */
+  color: #ffeedd;              /* Soft text */
+  border: 1px solid #5a3f72;
 }
 
 /* Contact */
 .contact-list a {
-  color: #ff79c6;              /* Matches nav hover accent */
+  color: #ff9e6d;              /* Sunset orange links */
 }
 
 /* Footer */
 .site-footer {
-  background-color: #2a2a3e;
-  border-top: 1px solid #444466;
-  color: #bbbbbb;
+  background-color: #2f243c;   /* Dark mountain base */
+  border-top: 1px solid #5a3f72;
+  color: #d8c0ff;              /* Lavender footer text */
 }
