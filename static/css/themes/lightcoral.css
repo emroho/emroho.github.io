@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #b04a6b;              /* Muted wine (replaces teal) */
+  color: #f08080;              /* Muted wine (replaces teal) */
 }
 
 /* Header */
@@ -95,7 +95,7 @@ a {
 }
 
 .contact-list a:hover {
-  color: #f08080;
+  color: #ff9a9a;
 }
 
 /* Footer */
