@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #ff6f61;              /* Coral-pink links */
+  color: #f08080;              /* Coral-pink links */
 }
 
 /* Header */
@@ -30,13 +30,13 @@ a {
 }
 
 .site-nav a:hover {
-  color: #ff9e6d;              /* Sunset orange hover */
+  color: #f08080;              /* Sunset orange hover */
 }
 
 /* Section headings */
 .section h2 {
   color: #ffd1a9;              /* Golden-orange headings */
-  border-color: #ff6f61;       /* Coral border */
+  border-color: #f08080;       /* Coral border */
 }
 
 /* Project card */
@@ -61,7 +61,7 @@ a {
 
 /* Details */
 .project-details {
-  color: #e0d4ff;              /* Light lavender */
+  color: #ffeedd;              /* Light lavender */
 }
 
 .detail-block h4 {
@@ -70,7 +70,7 @@ a {
 
 /* Buttons */
 .btn-repo {
-  background-color: #ff6f61;   /* Coral button */
+  background-color: #f08080;   /* Coral button */
   color: #1b1c2d;              /* Dark text */
 }
 
@@ -82,7 +82,7 @@ a {
 
 /* Contact */
 .contact-list a {
-  color: #ff9e6d;              /* Sunset orange links */
+  color: #f08080;              /* Sunset orange links */
 }
 
 /* Footer */

@@ -1,0 +1,106 @@
+body {
+  background-color: #1b1c2d;   /* Deep twilight blue */
+  color: #e6e9f2;              /* Cooler neutral text */
+}
+
+a {
+  color: #b04a6b;              /* Muted wine (replaces teal) */
+}
+
+/* Header */
+.site-header {
+  background-color: #2c2238;
+  border-bottom: 2px solid #4e3a63;
+}
+
+.header-name {
+  color: #f08080;              /* Coral = strong identity */
+}
+
+.header-tagline {
+  color: #cdb7ff;
+}
+
+.site-nav a {
+  color: #bfa6e0;
+}
+
+.site-nav a:hover {
+  color: #f08080;
+}
+
+/* Section headings */
+.section h2 {
+  color: #e6e9f2;
+  border-color: #b04a6b;       /* Wine accent instead of teal */
+}
+
+/* Project card */
+.project-card {
+  background-color: #2c2238;
+  border: 1px solid #4e3a63;
+}
+
+.project-title {
+  color: #e6e9f2;
+}
+
+.project-summary {
+  color: #ddd0ff;
+}
+
+/* Tech badges */
+.tech-badge {
+  background-color: #1b1c2d;
+  color: #cdb7ff;
+  border: 1px solid #6a3f5b;   /* subtle burgundy-purple border */
+}
+
+/* Details */
+.project-details {
+  color: #bfa6e0;
+}
+
+.detail-block h4 {
+  color: #e6e9f2;
+}
+
+/* Buttons */
+.btn-repo {
+  background-color: #f08080;
+  color: #1b1c2d;
+}
+
+.btn-repo:hover {
+  background-color: #ff9a9a;
+}
+
+.btn-notebook {
+  background-color: #3c2f50;
+  color: #e6e9f2;
+}
+
+.btn-notebook:hover {
+  background-color: #4b3a63;   /* slightly lifted purple hover */
+}
+
+/* Subtle purple accent */
+.highlight-accent {
+  color: #800080;              /* Pure matplotlib purple */
+}
+
+/* Contact */
+.contact-list a {
+  color: #b04a6b;
+}
+
+.contact-list a:hover {
+  color: #f08080;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #2c2238;
+  border-top: 1px solid #4e3a63;
+  color: #cdb7ff;
+}
