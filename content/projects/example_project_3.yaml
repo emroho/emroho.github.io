@@ -1,0 +1,33 @@
+# ============================================================
+# content/projects/example_project_3.yaml
+# ============================================================
+# Example project: Predicting the Best Nap Spots on Campus
+# Copy this file to create your own project entries.
+# ============================================================
+
+title: "AWS"
+
+short_summary: >
+  Something about AWS stuff.
+
+tech_stack:
+  - AWS
+  - Python
+  - pandas
+  - SQL
+  - sklearn
+  - Jupyter Notebooks
+
+problem_statement: >
+  This project uses AWS and cloud computing tools such as SageMaker to answer a stakeholder question. The dataset contains information regarding incident tickets, resolution times, and the city/department in which the incident took place. The project aims to analyze what factors drive high ticket resolution times.
+
+
+approach: >
+  there was definitely an approach
+
+results_impact: >
+  i got results
+
+repo_url: "https://github.com/emroho/aws-nyc311-hopki219.git"
+notebook_url: "https://github.com/emroho/ChronicKidneyDisease/blob/main/notebook/CMSE381Project.ipynb"
+image_path: "img/proj1image.png"

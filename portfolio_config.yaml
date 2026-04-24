@@ -16,6 +16,7 @@ student_file: content/example_student.yaml
 projects:
   - content/projects/example_project_1.yaml
   - content/projects/example_project_2.yaml
+  - content/projects/example_project_3.yaml
 
 # --- Theme ---
 # Built-in options: "light", "dark", "msu-light", "msu-dark"
