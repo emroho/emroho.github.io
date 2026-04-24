@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #b04a6b;              /* Muted wine (replaces teal) */
+  color: #f08080;              /* Muted wine (replaces teal) */
 }
 
 /* Header */
@@ -14,7 +14,7 @@ a {
 }
 
 .header-name {
-  color: #f08080;              /* Coral = strong identity */
+  color: #e6e9f2;              /* Coral = strong identity */
 }
 
 .header-tagline {
@@ -91,11 +91,11 @@ a {
 
 /* Contact */
 .contact-list a {
-  color: #b04a6b;
+  color: #f08080;
 }
 
 .contact-list a:hover {
-  color: #f08080;
+  color: #ff9a9a;
 }
 
 /* Footer */
