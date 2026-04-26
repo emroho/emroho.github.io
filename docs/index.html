@@ -94,13 +94,14 @@ interests in data visualization and cleaning. </p>
 
           <div class="detail-block">
             <h4>Approach</h4>
-            <p>Collected location data across 47 candidate nap sites over a full academic semester. Features included average daily sunlight (hours), grass softness score (1–10, assessed manually), nearby food-cart proximity, and pedestrian traffic by hour. Trained a gradient boosting classifier to predict a site&#39;s &#34;nap quality&#34; rating and used SHAP values to explain which features mattered most.
+            <p>The variables we use in our regression model are blood pressure, red blood cells, pus cells, pus cell clumps, bacteria, hypertension, diabetes melitus, coronary artery disease, appetite, pedal edema, and anemia. These were the measured health factors given in the dataset and all are good to use as potential predictors. We will predict the class which tells us if they have CKD or not.
+To build the KNN model, we first split our data into training and testing sets. Then, because this is a KNN model, we used StandardScaler() to ensure distance calculations were calculated correctly. We used GridSearchCV with a 5-fold cross validation to pick the most accurate number of neighbors to use and the most accurate weight distribution of the neighbors to use. Lastly, we evaluated the model to ensure our results made sense and have us useful information.
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Results &amp; Impact</h4>
-            <p>The model achieved 89% accuracy on held-out test sites. Sunlight duration and grass softness were the top two predictive features, while proximity to the student union food court provided a meaningful but secondary boost. A ranked list of top-10 nap sites was distributed to the campus dog community and has since been downloaded 847 times.
+            <p>We found that the regression model can accurately predict CKD from the factors provided 86.67% of the time. The KNN model achieved an accuracy of 95%, meaning it correctly predicted CKD or non-CKD for 38 out of 40 patients, we had two false negatives. The results of the forward selection were printed and we found that red blood cell, pus cell clumps, hypertension, diabetes melitus, and appetite were the least amount of predictors that produced the highest model accuracy. 
 </p>
           </div>
         </details>
