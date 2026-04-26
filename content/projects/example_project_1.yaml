@@ -30,7 +30,7 @@ approach: >
   To build the KNN model, we first split our data into training and testing sets. Then, because this is a KNN model, we used StandardScaler() to ensure distance calculations were calculated correctly. We used GridSearchCV with a 5-fold cross validation to pick the most accurate number of neighbors to use and the most accurate weight distribution of the neighbors to use. Lastly, we evaluated the model to ensure our results made sense and have us useful information.
 
 results_impact: >
-  We found that the regression model can accurately predict CKD from the factors provided 86.67% of the time. The KNN model achieved an accuracy of 95%, meaning it correctly predicted CKD or non-CKD for 38 out of 40 patients, we had two false negatives. The results of the forward selection were printed and we found that red blood cell, pus cell clumps, hypertension, diabetes melitus, and appetite were the least amount of predictors that produced the highest model accuracy. 
+  We found that the regression model can accurately predict CKD from the factors provided 86.67% of the time. The KNN model achieved an accuracy of 95%, meaning it correctly predicted CKD or non-CKD for 38 out of 40 patients. For this we had two false negatives. The results of the forward selection were printed and we found that red blood cell, pus cell clumps, hypertension, diabetes melitus, and appetite were the least amount of predictors that produced the highest model accuracy. 
 
 repo_url: "https://github.com/emroho/ChronicKidneyDisease"
 notebook_url: "https://github.com/emroho/ChronicKidneyDisease/blob/main/notebook/CMSE381Project.ipynb"
