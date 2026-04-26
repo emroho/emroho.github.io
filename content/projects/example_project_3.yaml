@@ -29,5 +29,5 @@ results_impact: >
   A list of features were produced that had the highest coefficient from the model.
 
 repo_url: "https://github.com/emroho/aws-nyc311-hopki219.git"
-notebook_url: "https://github.com/emroho/ChronicKidneyDisease/blob/main/notebook/CMSE381Project.ipynb"
+notebook_url: "https://github.com/emroho/aws-nyc311-hopki219/blob/master/reports/modeling_train_and_eval.ipynb"
 image_path: "img/proj3img.png"
