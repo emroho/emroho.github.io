@@ -94,8 +94,7 @@ interests in data visualization and cleaning. </p>
 
           <div class="detail-block">
             <h4>Approach</h4>
-            <p>The variables we use in our regression model are blood pressure, red blood cells, pus cells, pus cell clumps, bacteria, hypertension, diabetes melitus, coronary artery disease, appetite, pedal edema, and anemia. These were the measured health factors given in the dataset and all are good to use as potential predictors. We will predict the class which tells us if they have CKD or not.
-To build the KNN model, we first split our data into training and testing sets. Then, because this is a KNN model, we used StandardScaler() to ensure distance calculations were calculated correctly. We used GridSearchCV with a 5-fold cross validation to pick the most accurate number of neighbors to use and the most accurate weight distribution of the neighbors to use. Lastly, we evaluated the model to ensure our results made sense and have us useful information.
+            <p>We created a logistic regression model and a KNN model to help us discover more about the data. We used measurable health metrics in the models to find correlations. The logistic regression will use those metrics to predict the class of the patient - whether or not they have chronic kidney disease. The KNN used a standard scaler to ensure distance calculations were correct. It also used 5-fold cross validation to pick the most accurate number of neighbors to use and the most accurate weight distribution of the neighbors. Metrics used were: blood pressure, red blood cells, pus cells, pus cell clumps, bacteria, hypertension, diabetes melitus, coronary artery disease, appetite, pedal edema, and anemia.
 </p>
           </div>
 
@@ -170,7 +169,7 @@ To build the KNN model, we first split our data into training and testing sets. 
 
           <div class="detail-block">
             <h4>Approach</h4>
-            <p>Using the harvest time, herbivory, and plant death gravimetric water content (PDGWC) to predict the ratio of root-to-shoot biomass, we can predict the necessary conditions for viable plant growth. A ratio of root to shoot was chosen so we can understand where a plant diverts its energy—to root growth to stabilize itself and recover, or to shoot growth for reproduction and photosynthesis when it can thrive. 
+            <p>We created an SVR model using the harvest time, herbivory, and plant death gravimetric water content (PDGWC) to predict the ratio of root-to-shoot biomass in order to predict the necessary conditions for viable plant growth. A ratio of root to shoot was chosen so we can understand where a plant diverts its energy—to root growth to stabilize itself and recover, or to shoot growth for reproduction and photosynthesis when it can thrive. 
 </p>
           </div>
 
